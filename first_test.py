@@ -152,18 +152,6 @@ plt.plot(x, Pre, marker='o', markersize=3)
 plt.plot(x, Rec, marker='o', markersize=3)
 plt.plot(x, F1, marker='o', markersize=3)
 
-'''
-#for a, b in zip(x, loss):
-#    plt.text(a, b, b, ha='center', va='bottom', fontsize=10)  # 设置数据标签位置及大小
-for a, b in zip(x, Acc):
-    plt.text(a, b, b, ha='center', va='bottom', fontsize=1)
-for a, b in zip(x, Pre):
-    plt.text(a, b, b, ha='center', va='bottom', fontsize=1)
-for a, b in zip(x, Rec):
-    plt.text(a, b, b, ha='center', va='bottom', fontsize=1)
-for a, b in zip(x, F1):
-    plt.text(a, b, b, ha='center', va='bottom', fontsize=1)
-'''
     
 plt.legend(['准确率', '精确率', '召回率', 'F1分数'])  # 设置折线名称
 
